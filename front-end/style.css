@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+}
+
+.form{
+    max-width: fit-content;
+    margin: auto;
+    margin-top: 15vh;
+    padding: 3vh;
+    border: 1px solid rgb(125, 125, 125);
+    border-radius: 10px;
+}
+
+.heading{
+    font-size: 35px;
+    text-align: center;
+}
+
+.bottomPad{
+    padding-bottom: 35px;
+}
+
+input[type="text"], input[type="number"]{
+    font-size: 25px;
+    border: none;
+    border-bottom: 2px solid;
+}
+
+.rupee{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+input[type="number"]{
+
+    width: 15vw;
+    
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.submit{
+    max-width: fit-content;
+}
+
+input[type='submit']{
+    font-size: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 611px) {
+
+    .heading{
+        font-size: 25px;
+    }
+
+    input[type="text"], input[type="number"]{
+        font-size: 15px;
+    }
+
+    input[type="number"]{
+        width: 25vw;
+    }
+
+    input[type='submit']{
+        font-size: 10px;
+    }
+    
+}

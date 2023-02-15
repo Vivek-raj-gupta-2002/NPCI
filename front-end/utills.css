@@ -1,0 +1,12 @@
+.flex{
+    display: flex;
+}
+
+.just{
+    justify-content: center;
+    
+}
+
+.centre{
+    margin: auto;
+}
