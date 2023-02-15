@@ -1,0 +1,95 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#logo{
+    display: inline-block;
+    
+   
+    
+}
+#input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto, 'Helvetica Neue', Arial, sans-serif;
+   
+}
+#nothing{
+    margin-top: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(86, 172, 234);
+    
+}
+#left{
+   
+   float: left;
+   margin-top: 50px;
+   margin-right: 1000px;
+   padding-top: 8px;
+   margin-left: 30px;
+   
+    
+
+
+}
+#between{
+    background-color: blue;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+#h3{
+    margin: 8px;
+    color: aliceblue;
+    
+}
+#h4{
+    margin-left: 85%;
+    margin-top: 5px;
+    margin-right: 20px;
+    color: aliceblue;
+    align-items: right;
+    justify-content: right;
+}
+.upiPass{
+    margin: 20px;
+    height: 30px;
+    letter-spacing: normal;
+    border: 0;
+    
+}
+input {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #333;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 3rem;
+  
+}
+.payNow{
+    
+    background-color: #04AA6D!important;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 6px 18px;
+}
+.button{
+    display: flexbox;
+
+}
+
+
+
+

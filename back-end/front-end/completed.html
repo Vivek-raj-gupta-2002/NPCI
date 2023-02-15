@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        .uiBox{
+            background-color: #a8e5f0;
+            border-radius: 25px;
+            margin: auto; 
+            width: 50%;
+            height: 500px;
+            position: relative;
+            box-shadow: 0px 4px rgba(130, 130, 130, 0.185);
+            stroke: solid;
+
+        }
+        .nameUI{
+            padding-top: 50px;
+            padding-bottom: 25px;
+            
+            
+        }
+        .img{
+            float: left;
+            display: inline-block;
+            margin-top: 22px;
+            margin-left: 30%;
+            margin-right: 20px;
+            width: 35px;
+            height: 35px;
+        }
+        .amount1{
+            text-align: center;
+            font-size: 25px;
+            color: rgb(11, 123, 11);
+        }
+        .buttonUi{
+            background-color: #e6ebe6; /* Green */
+            border: none;
+            color: rgb(11, 11, 11);
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;   
+            /* border-radius: 50%; */
+            margin: 20px; 
+            border-end-start-radius: 50%;
+            border-top-left-radius: 50%;
+            border-bottom-left-radius: 50%;
+            border-top-right-radius: 50%;
+            border-bottom-right-radius: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="uiBox">
+     <div class="nameUI">
+        <img class="img" src="complition.jpeg" alt="Green Check">
+        <h1 style=" display: inline-block; " id="ph"></h1>
+     </div> 
+     <div >
+        <!-- amount transaction -->
+        <h2  class="amount1", id="amount"> &#8377 </h2>
+     </div>
+     <div style="margin-left: 20%;margin-top: 10%;">
+        <!-- report share split button -->
+        <div class="buttons">
+            <button type="share" class="buttonUi">Share</button>
+            <button type="fraud" class="buttonUi">Report</button>
+            <button type="repeat" class="buttonUi">Repeat</button>
+        </div>
+     </div>  
+    
+
+
+    </div>
+
+    <script src="last.js"></script>
+</body>
+</html>
